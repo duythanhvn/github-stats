@@ -88,6 +88,12 @@ const renderStatsCard = (stats = {}, options = { hide: [] }) => {
     },
     commits: {
       icon: icons.commits,
+      label: "Total Commits",
+      value: totalCommits,
+      id: "commits",
+    },
+    commits: {
+      icon: icons.commits,
       label: `Total Commits${
         include_all_commits ? "" : ` (${new Date().getFullYear()})`
       }`,
