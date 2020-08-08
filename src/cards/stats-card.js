@@ -96,7 +96,7 @@ const renderStatsCard = (stats = {}, options = { hide: [] }) => {
     },
     prs: {
       icon: icons.prs,
-      label: "Total PRs",
+      label: "Total Pull requests",
       value: totalPRs,
       id: "prs",
     },
